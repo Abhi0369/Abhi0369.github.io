@@ -597,13 +597,13 @@
       const leader = writers.writer1.words > writers.writer2.words ? writers.writer1.name : writers.writer2.name;
       
       if (total === 0) {
-        return "Let's start writing! 🚀";
+        return "Let's start writing!";
       } else if (total >= GOAL * 2) {
-        return "Amazing! You've both crushed your goals! 🎉";
+        return "Amazing! You've both crushed your goals!";
       } else if (diff < 500) {
-        return "Neck and neck! Keep pushing! 🔥";
+        return "Neck and neck! Keep pushing!";
       } else {
-        return `${leader} is in the lead, but anything can happen! 💪`;
+        return `${leader} is in the lead, but anything can happen!`;
       }
     }
 
